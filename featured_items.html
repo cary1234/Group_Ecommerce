@@ -6,51 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Enter your description here" />
 
-
     <!--Apply fluid image lightbox-->
-    <link rel="stylesheet" href="./source/fluid_image_lightbox.css" />
+    <link rel="stylesheet" href="./source/css/fluid_image_lightbox.css" />
+
+    <!--Personal Styles-->
+    <link rel="stylesheet" href="./source/css/styles.css" />
 
     <title>ECommerce</title>
   </head>
   <body>
-  
-
-    <div class="gallery">
-      <div class="img-container">
-        <img
-          src="https://source.unsplash.com/tzSLATuyZzM/640x853"
-          alt="No elegance is possible without perfume"
-          data-original="tzSLATuyZzM/1920x2560"
-        />
-      </div>
-      <div class="img-container">
-        <img
-          src="https://source.unsplash.com/GWQ2KmCXrQA/640x1137"
-          alt="It is the unseen, unforgettable, ultimate accessory"
-          data-original="GWQ2KmCXrQA/1920x3413"
-        />
-      </div>
-      <div class="img-container">
-        <img
-          src="https://source.unsplash.com/nkWnc-W_GP8/640x853"
-          alt="A perfume is like a piece of clothing, a message"
-          data-original="nkWnc-W_GP8/1920x2560"
-        />
-      </div>
-      <div class="img-container">
-        <img
-          src="https://source.unsplash.com/Ou00pmFFPKA/640x853"
-          alt="Perfume is like a parenthesis, a moment of freedom"
-          data-original="Ou00pmFFPKA/1920x2560"
-        />
+    <div class="container-flex" id="announcement">
+      Formant new member 10,000 won coupon pack
+    </div>
+    <div class="container-flex" id="headerAndMenu">
+      <div class="row">
+        <div class="col-2">
+          <a href="./index.html"><img src="logo.png" width="100%" /></a>
+        </div>
+        <div class="col-3">
+          <ul>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">MAGAZINE</a></li>
+            <li><a href="#">LOOKBOOK</a></li>
+            <li><a href="#">REVIEW</a></li>
+            <li><a href="#">C/S CENTER</a></li>
+          </ul>
+        </div>
+        <div class="col-4" style="padding: 9px 0px 0px 0px">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="search items here..."
+          />
+        </div>
+        <div class="col-1" id="searchBtn">
+          <a href="#"><img src="icons/search.png" /></a>
+        </div>
+        <div class="col-2" id="account">
+          <ul>
+            <li>
+              <a href="./login.html"><img src="icons/cart.png" /></a>
+            </li>
+            <li>
+              <a href="./login.html"><img src="icons/fav.png" /></a>
+            </li>
+            <li>
+              <a href="./login.html"><img src="icons/sign.png" /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="modal">
-      <img src="" alt="" class="full-img" />
-      <p class="caption"></p>
-    </div>
 
+    <div>
+      <div class="gallery">
+        <div class="img-container">
+          <img
+            src="https://source.unsplash.com/tzSLATuyZzM/640x853"
+            alt="No elegance is possible without perfume"
+            data-original="tzSLATuyZzM/1920x2560"
+          />
+        </div>
+        <div class="img-container">
+          <img
+            src="https://source.unsplash.com/GWQ2KmCXrQA/640x1137"
+            alt="It is the unseen, unforgettable, ultimate accessory"
+            data-original="GWQ2KmCXrQA/1920x3413"
+          />
+        </div>
+        <div class="img-container">
+          <img
+            src="https://source.unsplash.com/nkWnc-W_GP8/640x853"
+            alt="A perfume is like a piece of clothing, a message"
+            data-original="nkWnc-W_GP8/1920x2560"
+          />
+        </div>
+        <div class="img-container">
+          <img
+            src="https://source.unsplash.com/Ou00pmFFPKA/640x853"
+            alt="Perfume is like a parenthesis, a moment of freedom"
+            data-original="Ou00pmFFPKA/1920x2560"
+          />
+        </div>
+      </div>
+      <div class="modal">
+        <img src="" alt="" class="full-img" />
+        <p class="caption"></p>
+      </div>
+    </div>
     <!--Apply fluid image lightbox-->
-    <script src="./source/fluid_image_lightbox.js"></script>
+    <script src="./source/js/fluid_image_lightbox.js"></script>
   </body>
 </html>
