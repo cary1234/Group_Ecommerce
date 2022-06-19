@@ -15,12 +15,12 @@ loginCredentials = () => {
             loginAlertCorrect(false)
         }
 
+
         console.log("Done validate email")
 
         var a = document.getElementById("loginCredentialsEmailError");
         a.classList.add("d-none");
 
-        window.location.href = "./featured_items.html";
     } else {
 
         console.log("trigger Email Error")
@@ -31,11 +31,6 @@ loginCredentials = () => {
     }
 }
 
-
-
-
-console.log("trigger A");
-
 function loginAlertCorrect(result) {
 
     if (result == true) {
@@ -45,6 +40,8 @@ function loginAlertCorrect(result) {
         var b = document.getElementById("loginCredentialsWrong");
         b.classList.add("d-none");
         console.log("Login Credential Correct")
+        
+        window.location.href = "./featured_items.html";
     } else {
         var a = document.getElementById("loginCredentialsWrong");
         a.classList.remove("d-none");
